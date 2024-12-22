@@ -1,0 +1,88 @@
+html{
+    font-family: "Inter", serif;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--Grey-900);
+}
+
+.main .container{
+    background-color: var(--Grey-800);
+    width: 60vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.main .container .infos-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .container .img{
+    border-radius: 50%;
+    text-align: center;
+    width: 176px;
+    height: 176px;
+}
+
+.main .container .infos-main:nth-child(1),
+.main .container .infos-main:nth-child(2),
+.main .container .infos-main:nth-child(2){
+    color: white;
+}
+
+.main .container .infos-main .title{
+    font-weight: var(--fw4);
+    margin-bottom: 10px;
+}
+
+.main .container .infos-main .subtitle{
+    font-weight: var(--fw6);
+    color: var(--Green);
+    margin-bottom: 30px;
+}
+
+.main .container .infos-main .description{
+    font-weight: var(--fw7);
+    margin-bottom: 10px;
+}
+
+/* Social medias */
+
+.socials-media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+}
+
+.socials-media .social-btn{
+    width: 90%;
+    height: 80%;
+    margin-bottom: 10px;
+    background-color: var(--Grey-700);
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--fw6);
+    border-radius: 10px;
+}
+
+.socials-media .social-btn:hover{
+    color: var(--Grey-900);
+    background-color: var(--Green);
+}
+
