@@ -2,7 +2,7 @@
 
 ![Imagem do projeto finalizado](perfil-projeto.png)
 
-<h4 align="center"><a href="https://jedev1.github.io/Social-link-perfil/">Confira o projeto aqui</a></h4>
+<h4 align="center"><a href="https://joao-enrique.github.io/Social-link-perfil/">Confira o projeto aqui</a></h4>
 
 ---
 
